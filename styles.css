@@ -70,6 +70,10 @@ button{
     font-size: 40px;
 }
 
+.hero-text p{
+    color: #E5E7EB
+}
+
 .content .bold{
     color:#1F2937;
     margin-bottom: 30px;
