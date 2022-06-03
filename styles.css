@@ -66,8 +66,13 @@ button{
     font-weight: bold;
 }
 
+.top .bold{
+    font-size: 40px;
+}
+
 .content .bold{
     color:#1F2937;
+    margin-bottom: 30px;
 }
 
 .content button{
@@ -78,6 +83,7 @@ button{
 }
 
 .content{
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,4 +98,36 @@ button{
 .card{
     max-width: 200px;
     margin: auto 25px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    margin-bottom: 0px;
+}
+
+.quote .bold{
+    margin-top: 10px;
+    display: flex;
+    text-align: right;
+    font-size: 25px;
+    align-self: flex-end;
 }
