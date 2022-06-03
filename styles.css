@@ -131,3 +131,50 @@ button{
     font-size: 25px;
     align-self: flex-end;
 }
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-content{
+    color: white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    width: 1000px;
+}
+
+.action-text .bold{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.action-text .description{
+    margin-top: 0px;
+}
+
+.action-text{
+    margin: none;
+}
+
+.action-content button{
+    border: 2px solid white
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footer p{
+    color: white;
+}
