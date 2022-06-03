@@ -65,3 +65,31 @@ button{
 .bold{
     font-weight: bold;
 }
+
+.content .bold{
+    color:#1F2937;
+}
+
+.content button{
+    border: 2px solid #3882F6;
+    background-color: white;
+    width: 180px;
+    height: 180px; 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    max-width: 200px;
+    margin: auto 25px;
+}
